@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+#navbar ul {
+    display: flex;
+    flex-flow: column nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0px;
+}
+a.nav-link {
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#main-doc {
+    background-color: #888888;
+}
+
+code {
+    background-color: #666666;
+    border: 1px solid black;
+}
